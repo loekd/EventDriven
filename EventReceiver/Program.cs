@@ -2,7 +2,7 @@
 using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.Azure.ServiceBus;
-
+//Sync first!
 namespace EventReceiver
 {
     internal static class Program

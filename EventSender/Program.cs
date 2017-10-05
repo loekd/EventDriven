@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.Azure.ServiceBus;
-
-namespace ConsoleApp1
+//Sync first!
+namespace EventSender
 {
     internal static class Program
     {
