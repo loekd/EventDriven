@@ -6,7 +6,7 @@ namespace ConsoleApp1
     internal static class Program
     {
 
-        private const string ServiceBusConnectionStringForSend = "Endpoint=sb://centrictraining.servicebus.windows.net/;SharedAccessKeyName=Send;SharedAccessKey=MD5qth4+3KgkaNYgVpIqsqoBwIEXdXpq7/r19Z7OzIM=;";
+        private const string ServiceBusConnectionStringForSend = "Endpoint=sb://centrictraining.servicebus.windows.net/;SharedAccessKeyName=Send;SharedAccessKey=Z3bJUG5oNcxntLgUSErtt2kEaE7BkXheJm3S7ptSSrU=;";
         private const string ServiceBusTopic = "TestTopic";
 
         private static TopicClient _topicClient;

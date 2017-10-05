@@ -7,7 +7,7 @@ namespace EventReceiver
 {
     internal static class Program
     {
-        private const string ServiceBusConnectionStringForReceive = "Endpoint=sb://centrictraining.servicebus.windows.net/;SharedAccessKeyName=Listen;SharedAccessKey=HXjuhKQzP2wV+bEKTjnZFo/V+fGTh4/0JpZEtvUUFA4=;";
+        private const string ServiceBusConnectionStringForReceive = "Endpoint=sb://centrictraining.servicebus.windows.net/;SharedAccessKeyName=Listen;SharedAccessKey=KQolzgsoY9qTHXxwLfbmj3VAR97xjn9CFqTqz30ghsU=;";
         private const string ServiceBusTopic = "TestTopic";
         private const string ServiceBusSubscription = "TestSubscription";
 
