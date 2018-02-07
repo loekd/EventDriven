@@ -6,8 +6,8 @@ namespace EventSender
     internal static class Program
     {
 
-        private const string ServiceBusConnectionStringForSend = "Endpoint=sb://centrictraining.servicebus.windows.net/;SharedAccessKeyName=Send;SharedAccessKey=Z3bJUG5oNcxntLgUSErtt2kEaE7BkXheJm3S7ptSSrU=;";
-        private const string ServiceBusTopic = "TestTopic";
+        private const string ServiceBusConnectionStringForSend = "Endpoint=sb://centrictraining.servicebus.windows.net/;SharedAccessKeyName=Send;SharedAccessKey=lHd02+tT7PLtr/eMuk5mKEc90Gy7kmQjUnJE2Jnj03E=";
+        private const string ServiceBusTopic = "topic0";
 
         private static TopicClient _topicClient;
 

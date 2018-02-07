@@ -7,9 +7,9 @@ namespace EventReceiver
 {
     internal static class Program
     {
-        private const string ServiceBusConnectionStringForReceive = "Endpoint=sb://centrictraining.servicebus.windows.net/;SharedAccessKeyName=Listen;SharedAccessKey=KQolzgsoY9qTHXxwLfbmj3VAR97xjn9CFqTqz30ghsU=;";
-        private const string ServiceBusTopic = "TestTopic";
-        private const string ServiceBusSubscription = "TestSubscription";
+        private const string ServiceBusConnectionStringForReceive = "Endpoint=sb://centrictraining.servicebus.windows.net/;SharedAccessKeyName=ListenAndSend;SharedAccessKey=x9rRnabgHu5PdVyabjNa5Lod6lWglpDgg24Fp9Way3I=";
+        private const string ServiceBusTopic = "topic0";
+        private const string ServiceBusSubscription = "subscription0";
 
         private static SubscriptionClient _subscriptionClient;
 
